@@ -90,7 +90,7 @@ const UserNavbar = () => {
           {/* Desktop Navigation Links */}
           <div className="hidden lg:flex items-center gap-4">
             <Link 
-              href="/browse" 
+              href="/user/browse" 
               className="text-gray-600 hover:text-gray-800 font-medium transition-colors"
             >
               Browse

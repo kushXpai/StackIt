@@ -21,12 +21,12 @@ export default function LandingPage() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Link href="/signup">
+          <Link href="browse">
             <button className="bg-gradient-to-r from-blue-600 to-orange-500 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
               Browse Questions →
             </button>
           </Link>
-          <Link href="/login">
+          <Link href="ask">
             <button className="bg-white text-gray-700 px-8 py-3 rounded-lg font-semibold border border-gray-200 hover:shadow-lg transition-all duration-300">
               Ask Your First Question
             </button>
@@ -212,12 +212,12 @@ export default function LandingPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/signup">
+            <Link href="/ask">
               <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
                 Ask Your Question
               </button>
             </Link>
-            <Link href="/login">
+            <Link href="/browse">
               <button className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300">
                 Explore Questions
               </button>
