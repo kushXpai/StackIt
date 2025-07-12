@@ -1,12 +1,12 @@
 // src/app/page.tsx
-import Navbar from '@/components/navbar'
+import UserNavbar from '@/components/usernavbar'
 import Link from 'next/link'
 import { TrendingUp, Users, MessageCircle, Target, Zap } from 'lucide-react'
 
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-white">
-      <Navbar />
+      <UserNavbar />
 
       {/* Hero Section with Gradient Background */}
       <div className="bg-gradient-to-br from-purple-100 via-orange-50 to-white-50 text-center py-20 px-4">
@@ -23,12 +23,12 @@ export default function LandingPage() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link href="/signup">
             <button className="bg-gradient-to-r from-blue-600 to-orange-500 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-              Get Started →
+              Browse Questions →
             </button>
           </Link>
           <Link href="/login">
             <button className="bg-white text-gray-700 px-8 py-3 rounded-lg font-semibold border border-gray-200 hover:shadow-lg transition-all duration-300">
-              Sign In
+              Ask Your First Question
             </button>
           </Link>
         </div>
@@ -214,12 +214,12 @@ export default function LandingPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/signup">
               <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-                Join Now
+                Ask Your Question
               </button>
             </Link>
             <Link href="/login">
               <button className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300">
-                Sign In
+                Explore Questions
               </button>
             </Link>
           </div>

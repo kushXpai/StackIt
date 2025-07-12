@@ -1,0 +1,1 @@
+// src/app/user/browse/page.tsx
